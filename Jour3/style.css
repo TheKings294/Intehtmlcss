@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    color: white;
+}
+.Maj {
+    text-transform: uppercase;
+}
+.Petit {
+    font-size: 7%;
+    color: cyan;
+}
+#BG-Header {
+    background: linear-gradient(to right,rgb(14,15,70), rgb(5,6,25));
+}
+body {
+    background-color: rgb(9, 10, 42);
+    font-family: 'Poppins', sans-serif;
+}
+.logo {
+    height: 20px;
+    width: auto;
+    border-radius: 5px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a::after {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+a>img {
+    margin: 2px;
+}
+#Mobile {
+    display: none;
+}
+#Mobile-2 {
+    display: none;
+}
+#Desktop {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+#Desktop>nav a {
+    padding: 10px;
+}
+#Desktop button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: linear-gradient(to right,rgb(56,7,150), rgb(214,90,155));
+    border: none;
+}
+#Desktop-2 {
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+#D2-container {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    align-items: center;
+    border-image: linear-gradient(to right,rgb(56,7,150), rgb(214,90,155));
+    border-image-slice: 1;
+}
+#special {
+    border: solid;
+    padding: 8px;
+    border-image: linear-gradient(to right,rgb(56,7,150), rgb(214,90,155));
+    border-image-slice: 1;
+}
+#NavBar-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#NavBar-1 button {
+    border-radius: 20px;
+    padding: 10px 30px;
+    background: linear-gradient(to right,rgb(56,7,150), rgb(214,90,155));
+    border: none;
+}
+#NavBar-1>h1 {
+    text-align: center;
+    flex-basis: 100%;
+    font-size: 150px;
+}
+#HeadDiv1 {
+    content: "";
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right,rgb(56,7,150), rgb(214,90,155));
+    border-image-slice: 1;
+    background-color: rgb(15, 14, 35);
+    border-radius: 10px;
+    width: 800px;
+    font-size: 30px;
+    padding-left: 1em;
+}
+#HeadDiv2 {
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    border-image: linear-gradient(to right,rgb(56,7,150), rgb(214,90,155));
+    border-image-slice: 1;
+    border-radius: 20px;
+    padding: 1em;
+    flex-basis: 100%;
+    margin: 1em 20em;
+}
+#HeadDiv2>input {
+    border: none;
+    background: none;
+}
+#NavBar-2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+#NavBar-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#NavBar-3>h3 {
+    font-size: 30px;
+}
+.NavBar-3Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: (3, auto);
+    gap: 1%;
+    margin: 1em;
+}
+#NavBar-3>p {
+    text-align: center;
+    flex-basis: 100%;
+}
+.NavBar-33 {
+    border-radius: 10px;
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: rgba(56, 56, 74, 80);
+    margin: 2em;
+    background-color: rgb(12, 12, 41);
+}
+.contenues {
+    padding: 0 5px;
+}
+.NavBar-33>img+* {
+    flex-basis: 100%;
+}
+.NavBar-33>div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 9px;
+    margin-left: 5px; 
+    margin-bottom: 5px;
+}
+.NavBar-33-IMG {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.NavBar-33-IMG2 {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+#NavBar-4 {
+    display: none;
+    background-color: rgb(20, 18, 40);
+}
+#NavBar-4D {
+    border: solid;
+    border-radius: 20px;
+    border-image: linear-gradient(to right,rgb(56,7,150), rgb(214,90,155));
+    border-image-slice: 1;
+    background-color: rgb(20, 18, 40);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2em;
+    margin: 1em 10em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.contain {
+    margin: 2em 4em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#NavBar-4D h3 {
+    flex-basis: 70%;
+    font-size: 40px;
+}
+#NavBar-4D img {
+    border: solid;
+    padding: 5px;
+    border-radius: 20px;
+    border-image: linear-gradient(to right,rgb(56,7,150), rgb(214,90,155));
+    border-image-slice: 1;
+}
+#NavBar-4D div {
+    margin-left: 1em;
+}
+#countdown {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 2em;
+}
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 8px;
+    border-image: linear-gradient(to right,rgb(56,7,150), rgb(214,90,155));
+    border-image-slice: 1;
+}
+#NavBar-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+#NavBar-5>button {
+    margin: 1em;
+    padding: 1em 5em;
+    border-radius: 10px;
+    border-style: none;
+    background: linear-gradient(to right,rgb(56,7,150), rgb(214,90,155));
+}
+#NavBar-5>p {
+    margin-bottom: 2em;
+}
+#NavBar-5 h3 {
+    font-size: 30px;
+}
+.NavBar-55 {
+    border: 1px solid;
+    border-radius: 20px;
+    border-color: rgba(56, 56, 74, 80);
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 2em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.NavBar-55-IMG {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.NavBar-555 {
+    display: none;
+}
+.contenue {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+.contenue>h4 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+.contenue>div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+footer {
+    background-color: black;
+}
+#mainfoot {
+    display: flex;
+    justify-content: space-around;
+}
+#foot1 {
+    margin: 1em;
+}
+#foot2 {
+    margin: 1em;
+}
+#foot1>p+p {
+    padding-top: 5px;
+}
+#foot2>p {
+    padding-top: 5px;
+}
+
+@media  screen and (max-width: 1150px) {
+    #NavBar-1>h1 {
+        text-align: center;
+        flex-basis: 100%;
+        font-size: 100px;
+    } 
+    .NavBar-3Grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: (2, auto);
+        gap: 1%;
+        margin: 1em;
+    }
+    #NavBar-4D {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #NavBar-4D {
+        margin: 1em;
+    }
+    .NavBar-55 {
+        margin: 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #Desktop {
+        display: none;
+    }
+    #Desktop-2 {
+        display: none;
+    }
+    #Mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1em;
+    }
+    #NavBar-1>h1 {
+        font-size: 40px;
+    }
+    #Mobile-2 {
+        display: flex;
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        flex-basis: 100%;
+        justify-content: center;
+        margin-bottom: 1em;
+        border-image: linear-gradient(to right,rgb(56,7,150), rgb(214,90,155));
+        border-image-slice: 1;
+    }
+    #Mobile-2>button {
+        border: solid;
+        border-radius: 20px;
+        padding: 5px 2em;
+        margin: 1em;
+        background: none;
+        border-image: linear-gradient(to right,rgb(56,7,150), rgb(214,90,155));
+        border-image-slice: 1;
+    }
+    #HeadDiv1 {
+        padding: 0.5em;
+        font-size: 15px;
+        margin: 0 5px;
+        text-align: center;
+    }
+    #HeadDiv2 {
+        padding: 0.5em 1em;
+    }
+    #NB33 {
+        display: none;
+    }
+    #NB34 {
+        display: none;
+    }
+    #NB35 {
+        display: none;
+    }
+    #NB36 {
+        display: none;
+    }
+    #NavBar-3>h3 {
+        text-align: center;
+    }
+    .NavBar-33 {
+        flex-basis: 100%;
+        width: 250px;
+        border-radius: 12px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .NavBar-33-IMG {
+        width: 100%;
+        height: 150px;
+        background-color: #888;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+    .NavBar-3Grid {
+        grid-template-columns: inherit;
+        grid-template-rows: inherit;
+        gap: inherit;
+        
+    }
+    #NavBar-4D {
+        display: none;
+    }
+    #NB-4G {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #NavBar-4 {
+        display: block;
+        width: 250px;
+        border-radius: 16px;
+        padding: 16px;
+        text-align: center;
+        border: 2px solid;
+        border-image: linear-gradient(to right,rgb(56,7,150), rgb(214,90,155));
+        border-image-slice: 1;
+    }
+    #NavBar-4>h3 {
+        text-align: center;
+    }
+    #NavBar-4>p {
+        text-align: center;
+    }
+    #NavBar-4>img {
+        width: 100%;
+        height: 180px;
+        border-radius: 12px;
+        margin-bottom: 16px;
+        border: 4px solid;
+        border-image: linear-gradient(to right,rgb(56,7,150), rgb(214,90,155));
+        border-image-slice: 1;
+    }
+    #countdown {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+    .timer {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1c1c2e;
+        border-radius: 10px;
+        border: 2px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(to right, #00D1FF, #D300FF);
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    #NavBar-5>p {
+        text-align: center;
+    }
+    .NavBar-55 {
+        display: none;
+    }
+    .NavBar-555 {
+        width: 250px;
+        border-radius: 12px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        border: solid;
+        margin: 1em;
+        border-image: linear-gradient(to right,rgb(56,7,150), rgb(214,90,155));
+        border-image-slice: 1;
+    }
+    .NavBar-555>p {
+        text-align: center;
+    }
+    .NavBar-555>img {
+        width: 100%;
+        height: 150px;
+        background-color: #888;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+    }
+    .NavBar-555>img+p {
+        font-size: 7%;
+        color: cyan;
+    }
+    .contenuee {
+        padding: 0 5px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    #mainfoot {
+        flex-direction: column;
+        text-align: center;
+    }
+}
